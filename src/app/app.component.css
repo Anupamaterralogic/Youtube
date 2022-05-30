@@ -1,0 +1,193 @@
+.headmenu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu {
+    cursor: pointer;
+    font-weight: 50;
+    font-size: x-large;
+}
+.menu:hover {
+    background-color: rgb(227, 225, 233);
+    /* padding: 7px; */
+    width: 20px;
+    height: 40px;
+    border-radius: 70%;
+}
+.example-container {
+    padding:0px !important;
+    width: 100% !important;
+    height: 580px;
+    margin:0px !important;
+    
+}
+.example-sidenav-content {
+    display: flex;
+    height: 40px;
+    align-items: left;
+    justify-content: left;
+}
+.example-sidenav {
+   width: 280px;
+   /* transform: translate(-50%);
+   transition-duration: 0ms;
+   touch-action: pan-y; */
+   /* overflow-x: hidden; 
+   overflow-y: auto;
+   scrollbar-width: none;
+   -ms-overflow-style: none; */
+   /* scrollbar-color: rgb(81, 82, 82); */
+}
+/* .example-sidenav::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+.example-sidenav::-webkit-scrollbar{
+    width: 12px;
+    background-color: #F5F5F5;
+} 
+.example-sidenav::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #512da8;
+} */
+.side-text{
+    font-size: 16px;
+    font-weight: 400;
+    width: 200px;
+    float:left;
+    cursor: pointer;
+}
+.example-container .example-sidenav .row:hover{
+    background-color: #ccc;
+}
+.side-textbelow{
+    font-size: 12px;
+    font-weight: 600;
+    width: 200px;
+    float: left;
+}
+
+.dividertop1{
+    width: 100%;
+    margin:0px;
+    padding: 0px;
+}
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.logotext {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.headsearch {
+    margin-left: 50px;
+}
+
+.searchbar {
+    width: 600px;
+    padding: 8px 0px 0px 10px;
+}
+
+.searchicon {
+    border-radius: 0%;
+    width: 60px;
+    height: 36px;
+    background: #ddd;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 3px 0px 3px 18px;
+}
+
+.searchicon:hover {
+    background: #ccc;
+}
+
+.mic {
+    cursor: pointer;
+    padding: 7px;
+    font-weight: 50;
+    font-size: x-large;
+    background-color: rgb(227, 225, 233);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 14px;
+}
+
+.headicon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    font-size: xx-large;
+    align-items: center;
+    float: right;
+}
+
+.headprofile {
+    cursor: pointer;
+    padding: 7px;
+    font-weight: 50;
+    font-size: x-large;
+    background-color: rgb(227, 225, 233);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.dividertop {
+    margin: 10px 0px 10px 10px;
+}
+.category{
+    margin-left: 10px;  
+} 
+.category-box{
+    cursor: pointer;
+}
+.category-box:hover{
+    background: black;
+    color: white;
+}
+.category-box:active{
+    background-color: black;
+    color: white;
+}
+.category-box::after{
+    background-color: black;
+    color: white;
+}
+.card{
+    width: 280px;
+    height: 250px;
+}
+.card:hover{
+  background-color: aliceblue;
+  box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
+
+}
+.cardtext{
+    width:240px;
+    padding: 10px 10px 0px 10px;
+    font-size: 16px;
+    margin:0px;
+}
+.cardimg{
+    width:240px;
+    height: 150px;
+}
+.cardtextsub{
+    width:240px;
+    padding: 0px 10px 0px 10px;
+    font-size: 12px;
+    margin: 0px;
+}
+
