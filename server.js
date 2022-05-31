@@ -1,8 +1,12 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-app.use(express.static(__dirname + '/dist/youtubehomepage'));
+app.use(express.static(__dirname + '/dist/youtube'));
 app.get('/*', function(req,res) {
 res.sendFile(path.join(__dirname+
-'/dist/youtubehomepage/index.html'));});
+'/dist/youtube/index.html'));});
 app.listen(process.env.PORT || 8080);
+// const server = app.listen(process.env.PORT || 5000, () => {
+//     const port = server.address().port;
+//     console.log(`Express is working on port ${port}`);
+//   });
